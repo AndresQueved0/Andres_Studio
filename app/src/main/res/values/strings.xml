@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SENA</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="edit_email">Ingrese su correo electronico</string>
+    <string name="edit_pass">Ingrese su contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_google">Ingresar con Google</string>
+    <string name="btn_cuenta">Crear cuenta</string>
+    <string name="registro">Crear cuenta</string>
+    <string name="edit_name">Ingrese su nombre</string>
+    <string name="edit_lastname">Ingrese su apellido</string>
+    <string name="edit_cel">Ingrese su numero telefonico</string>
+    <string name="title_res">Ingrese los siguientes datos</string>
+    <string name="btn_res">Registrarse</string>
+    <string name="recuperar">Recuperar contraseña</string>
+    <string name="btn_recuperar">Solicitar contraseña</string>
+
+</resources>

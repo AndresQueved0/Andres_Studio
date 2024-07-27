@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/sena"
+        android:text="@string/registro"
+        android:paddingTop="30sp"
+        android:paddingBottom="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/title_res"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_lastname"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_cel"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/edit_pass" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_res"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
