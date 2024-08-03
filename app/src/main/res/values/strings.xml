@@ -3,7 +3,7 @@
     <string name="login">Iniciar sesion</string>
     <string name="edit_email">Ingrese su correo electronico</string>
     <string name="edit_pass">Ingrese su contraseña</string>
-    <string name="btn_login">Ingresar</string>
+    <string name="btn_ingreso">Ingresar</string>
     <string name="btn_google">Ingresar con Google</string>
     <string name="btn_cuenta">Crear cuenta</string>
     <string name="registro">Crear cuenta</string>
@@ -14,5 +14,7 @@
     <string name="btn_res">Registrarse</string>
     <string name="recuperar">Recuperar contraseña</string>
     <string name="btn_recuperar">Solicitar contraseña</string>
+    <string name="btn_login">Login</string>
+
 
 </resources>

@@ -50,6 +50,18 @@
         android:textColor="@color/white"
         android:textColorLink="@color/white"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="294dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_login"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp" />
 </LinearLayout>
 
 

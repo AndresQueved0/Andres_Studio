@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
     <TextView
@@ -51,7 +52,7 @@
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIng"
         android:layout_width="152dp"
         android:layout_height="63dp"
         android:layout_gravity="center_horizontal"
@@ -63,7 +64,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnGoogle"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -75,12 +76,22 @@
         app:strokeWidth="1sp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnCre"
         android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20sp"
         android:backgroundTint="#0088FF"
         android:text="@string/btn_cuenta" />
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperar"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#0088FF"
+        android:textColorLink="#008EFF" />
 
 </LinearLayout>
