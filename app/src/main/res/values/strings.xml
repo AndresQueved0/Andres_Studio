@@ -15,6 +15,6 @@
     <string name="recuperar">Recuperar contraseña</string>
     <string name="btn_recuperar">Solicitar contraseña</string>
     <string name="btn_login">Login</string>
-
+<string name="ola">ola</string>
 
 </resources>
