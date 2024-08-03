@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/sena"
+        android:text="@string/recuperar"
+        android:paddingTop="30sp"
+        android:paddingBottom="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/recuperar_removebg_preview"
+        android:layout_marginTop="40sp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/edit_email"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="282dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_recuperar"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
+
+
